@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card'
 import CardMedia from '@material-ui/core/CardMedia'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
-import passionBroughtUsHere from './../assets/images/passion-brought-us-here.jpg'
+import passionImg from '../assets/images/passion-led-us-here.jpg'
 import Grid from '@material-ui/core/Grid'
 import auth from './../auth/auth-helper'
 import FindPeople from './../user/FindPeople'
@@ -52,12 +52,12 @@ export default function Home({ history }) {
             <Card className={classes.card}>
               <Typography variant="h6" className={classes.title}>
                 Home Page
-              </Typography>
-              <CardMedia className={classes.media} image={passionBroughtUsHere} title="Unicorn Bicycle" />
+                </Typography>
+              <CardMedia className={classes.media} image={passionImg} title="passion led us here" />
               <CardContent>
                 <Typography type="body1" component="p">
-                  Welcome to the Happen-social home page.
-                </Typography>
+                  Welcome to the Happen social home page.
+                  </Typography>
               </CardContent>
             </Card>
           </Grid>
