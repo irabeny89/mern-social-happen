@@ -21,7 +21,7 @@ import theme from './../client/theme'
 //end
 
 //comment out before building for production
-import devBundle from './devBundle'
+// import devBundle from './devBundle'
 
 const CURRENT_WORKING_DIR = process.cwd()
 const app = express()
