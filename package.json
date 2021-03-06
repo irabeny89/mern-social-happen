@@ -1,9 +1,9 @@
 {
-  "name": "mern-social",
-  "version": "2.0.0",
+  "name": "mern-social-happen",
+  "version": "1.0.0",
   "description": "A MERN stack based social media application",
-  "author": "Shama Hoque",
-  "license": "MIT",
+  "author": "Ernest Irabor",
+  "license": "ISC",
   "keywords": [
     "react",
     "express",
@@ -11,11 +11,6 @@
     "node",
     "mern"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shamahoque/mern-social.git"
-  },
-  "homepage": "https://github.com/shamahoque/mern-social",
   "main": "./dist/server.generated.js",
   "scripts": {
     "development": "nodemon",
@@ -23,8 +18,8 @@
     "start": "NODE_ENV=production node ./dist/server.generated.js"
   },
   "engines": {
-    "node": "13.12.0",
-    "npm": "6.14.4"
+    "node": "15.1.0",
+    "npm": "7.0.8"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -59,6 +54,7 @@
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.20",
     "react-router": "^5.1.2",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "dotenv": "^8.2.0"
   }
 }
