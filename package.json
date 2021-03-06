@@ -15,7 +15,7 @@
   "scripts": {
     "development": "nodemon",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
-    "start": "cross-env NODE_ENV=production node ./dist/server.generated.js"
+    "start": "SET NODE_ENV=production& node ./dist/server.generated.js"
   },
   "engines": {
     "node": "15.1.0",
@@ -44,7 +44,6 @@
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
-    "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "express-jwt": "^5.3.1",
     "formidable": "^1.2.2",
